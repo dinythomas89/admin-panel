@@ -1,0 +1,18 @@
+.listComponent {
+  .image {
+    width: 32px;
+    height: 32px;
+  }
+  .status {
+    padding: 5px;
+    border-radius: 5px;
+    &.Approved {
+      color: green;
+      background-color: rgba(0, 128, 0, 0.122);
+    }
+    &.Pending {
+      color: goldenrod;
+      background-color: rgba(218, 165, 32, 0.143);
+    }
+  }
+}
